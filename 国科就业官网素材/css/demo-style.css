@@ -69,7 +69,6 @@ html{
     bottom: 0;
     margin: 150px auto;
     display: flex;
-    background: url(image/jobdetailbrief.png);
     background-size: 1278px 218px;
 }
 .text span{
