@@ -19,12 +19,12 @@
             height: 60px;
             display: flex;
             align-items: center;
+            justify-content: center;
         }
 
         .header img {
             width: 146px;
             height: 35px;
-            padding-left: 200px;
         }
 
         .details {
@@ -87,7 +87,7 @@
 
         .cheek,
         .sort {
-            width: 980px;
+            width: 1240px;
             height: 260px;
             background-color: white;
             padding: 20px;
@@ -128,7 +128,7 @@
         }
 
         .joblist {
-            width: 980px;
+            width: 1240px;
             height: 1220px;
             background-color: white;
             padding: 20px;
@@ -141,16 +141,16 @@
         }
 
         .item {
-            width: 940px;
+            width: 1200px;
             height: 150px;
             border-bottom: 1px solid #999;
+            margin: 0 auto;
         }
 
         .left {
             width: 300px;
             height: 150px;
             float: left;
-
         }
 
         .right {
@@ -174,14 +174,17 @@
             color: white;
         }
 
-        .top {
-            margin-top: 40px;
-            margin-left: 80px;
-        }
-
         .footli {
             float: left;
             padding-left: 25px;
+        }
+
+        .footli:first-child {
+            padding-left: 0px;
+        }
+
+        .top {
+            margin-top: 40px;
         }
 
         .footli a {
@@ -374,18 +377,20 @@
         </div>
     </div>
     <div class="footer">
-        <div class="top">
-            <ul>
-                <li class="footli"><a href="#">首页</a></li>
-                <li class="footli"><a href="#">关于我们</a></li>
-                <li class="footli"><a href="#">了解国科就业</a></li>
-                <li class="footli"><a href="#">国科学院</a></li>
-                <li class="footli"><a href="#">集客服务</a></li>
-                <li class="footli"><a href="#">意见反馈</a></li>
-            </ul>
+        <div style="width: 1278px;margin: 0 auto;overflow: hidden;">
+            <div class="top">
+                <ul>
+                    <li class="footli"><a href="#">首页</a></li>
+                    <li class="footli"><a href="#">关于我们</a></li>
+                    <li class="footli"><a href="#">了解国科就业</a></li>
+                    <li class="footli"><a href="#">国科学院</a></li>
+                    <li class="footli"><a href="#">集客服务</a></li>
+                    <li class="footli"><a href="#">意见反馈</a></li>
+                </ul>
+            </div>
+            <img src="image/gokjob_logo.png" alt="" style="width: 146px;height: 35px;float: right;">
+            <p style="margin-top:140px;">&copy;2018&nbsp;job.goktech.cn&nbsp;闽ICP备15016628号-1</p>
         </div>
-        <img src="image/gokjob_logo.png" alt="" style="width: 146px;height: 35px;float: right;margin-right: 200px;">
-        <p style="margin-top:140px;margin-left: 100px;">&copy;2018&nbsp;job.goktech.cn&nbsp;闽ICP备15016628号-1</p>
     </div>
 </body>
 

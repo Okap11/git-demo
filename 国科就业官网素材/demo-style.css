@@ -12,11 +12,10 @@ html{
     height: 60px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .header img{
     width: 146px;
-    height: 35px;
-    padding-left: 200px;
 }
 .details{
     width: 100%;
@@ -61,7 +60,7 @@ html{
     height: 190px;
 }
 .text{
-    width: 1200px;
+    width: 1278px;
     height: 218px;
     position:absolute;
     top: 0;
@@ -71,6 +70,7 @@ html{
     margin: 150px auto;
     display: flex;
     background: url(image/jobdetailbrief.png);
+    background-size: 1278px 218px;
 }
 .text span{
     font-size: 25px;
@@ -114,7 +114,7 @@ html{
     font-size: 13px;
 }
 .floatbody{
-    width: 1200px;
+    width: 1278px;
     height: 300px;
     position: absolute;
     top: 0px;
@@ -127,7 +127,7 @@ html{
 .right{
     padding: 20px;
     background: white;
-    margin-left: 40px;
+    margin-left: 130px;
     height: 250px;
     width: 300px;
 }
@@ -142,13 +142,15 @@ html{
     background: rgb(33, 32, 32);
     color: white;
 }
-.top{
-    margin-top: 40px;
-    margin-left: 80px;
-}
 .footli{
     float: left;
     padding-left: 25px;
+}
+.footli:first-child{
+    padding-left: 0px;
+}
+.top{
+    margin-top: 40px;
 }
 .footli a{
     color: white;
@@ -161,8 +163,7 @@ html{
     display: none;
 }
 .banner{
-    width:1238px;
-    height: 342px;
+    width:1278px;
 }
 .job_h1{
     font-weight: bolder;
@@ -182,36 +183,37 @@ html{
     height: 1300px;
 }
 .job_body1{
-    width: 1200px;
+    width: 1278px;
     height: 540px;
     margin: 0 auto;
     margin-top: 30px;
 }
 .companie{
-    width: 1200px;
+    width: 1278px;
     height: 540px;
     column-count: 4;
 }
 .companieson{
-    width: 270px;
+    width: 307px;
     height: 160px;
     margin-bottom: 20px;
     text-align: center;
     background: white;
 }
 .job_body2{
-    width: 1200px;
+    width: 1278px;
     height: 540px;
     margin: 0 auto;
     margin-top: 30px;
+    
 }
 .job_job{
-    width: 1200px;
+    width: 1278px;
     height: 540px;
     column-count: 3;
 }
 .job_jobson{
-    width:350px;
+    width:396px;
     height: 220px;
     margin-bottom: 20px;
     text-align: center;
@@ -228,17 +230,20 @@ html{
     border: 1px solid rgb(186, 199, 211);
 }
 .job_body3{
-    width: 1200px;
+    width: 1278px;
     height: 250px;
     margin: 0 auto;
     margin-top: 30px;
 }
 .job_body3_son{
-    width: 250px;
+    width: 281px;
     height: 130px;
     float: left;
-    margin-right: 20px;
+    margin-right: 40px;
     background: white;
     padding-top: 20px;
     padding-left: 10px;
+}
+.job_body3_son:last-child{
+    margin-right: 0px;
 }
